@@ -10,6 +10,7 @@ activity-compose = "1.8.1"
 compose-bom = "2023.10.01"
 compose-navigation = "2.7.5"
 material3 = "1.1.2"
+kotlin-gradle-plugin = "1.9.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -28,6 +29,7 @@ ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
 material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
